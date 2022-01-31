@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head> 
+		
+		<title> The Game Of Life </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+
+	<body>
+	
+		<main>
+
+			<section class="container">
+
+				<div class="row row-one">
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+
+					<div class="button-item">
+							<label class="label" id="label-one">
+
+								<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+								<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+							</label>
+					</div>
+				
+				</div>
+
+				<div class="row row-two">	
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-three">
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-four">
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-five">
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-six">
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-seven">			
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+				<div class="row row-eight">
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+					<div class="button-item">
+						<label class="label" id="label-one">
+
+							<input type="checkbox" class="checkbox" id="checkbox" class="" name="slot" onclick="button_turn(this.id)">
+
+							<svg class="circle-indicate" id="circle-indicate-one" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256c0 141.4-114.6 256-256 256s-256-114.6-256-256s114.6-256 256-256S512 114.6 512 256z"></path></svg>
+
+						</label>
+					</div>
+
+
+				</div>
+
+			</section>
+
+			<!--<section class = "container-two">
+
+				<div class="button-x">
+
+					<label class="rectlabel">
+
+						<input type="checkbox" class="rectbox" id="rectbox" class="" name="slot" onclick="inset_turn(this.id)">
+
+						<p class="rectText"> Hello </p> 
+
+					</label>
+
+
+				</div>
+
+			</section>-->
+		</main>
+
+		<script src="Javas/index.js"></script>
+
+	</body>
+
+</html>
